@@ -79,8 +79,8 @@ Buttons
 .btn-primary {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
-  border: 2px solid var(--primaryColor);
+  color: var(--primaryDarkColor);
+  border: 2px solid var(--primaryDarkColor);
   padding: 0.45rem 0.8rem;
   display: inline-block;
   transition: var(--mainTransition);
@@ -91,7 +91,7 @@ Buttons
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primaryColor);
+  background: var(--mainRed);
   color: var(--mainWhite);
 }
 .btn-white {
@@ -101,7 +101,7 @@ Buttons
 }
 .btn-white:hover {
   background: var(--mainWhite);
-  color: var(--primaryColor);
+  color: var(--mainRed);
 }
 .btn-primary {
   background: var(--primaryColor);
