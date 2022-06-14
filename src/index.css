@@ -104,7 +104,7 @@ Buttons
   color: var(--mainRed);
 }
 .btn-primary {
-  background: var(--primaryColor);
+  background: var(--mainRed);
   color: var(--mainWhite);
   border-color: transparent;
 }
